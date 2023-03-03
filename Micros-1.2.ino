@@ -1359,4 +1359,6 @@ void loop() {
     else if(aux>=rango*6 && aux<rango*7) A();
     else aux = 0;
   }
+
+  if (rango > 1000) rango = 20;
 }
